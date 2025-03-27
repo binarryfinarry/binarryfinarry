@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: harbor.shared.avalaunch.rbua/ghcr-io/heptio-images/ks-guestbook-demo:v0.1
+      - image: harbor.shared.avalaunch.rbua/docker-hub-proxy/corelab/ks-guestbook-demo:0.2
         name: guestbook-ui
         ports:
         - containerPort: 80
